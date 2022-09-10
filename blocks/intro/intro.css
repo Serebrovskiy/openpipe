@@ -1,0 +1,136 @@
+.intro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #171717;
+}
+
+.intro__container {
+  margin: 356.1rem auto 0;
+  width: 1407rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  width: 1216rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88.5rem;
+  line-height: 105rem;
+  color: #E7E7E7;
+  margin: 0 0 0 95rem;
+}
+.intro__title_green {
+  color: #00FFC2;
+}
+
+.intro__form {
+  width: 1407rem;
+  min-height: 185.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 170rem auto 0;
+  background: #E6E6E6;
+  border-radius: 26.8rem;
+}
+
+.intro__form__subtitle {
+  font-family: 'KDH';
+  font-weight: 600;
+  font-size: 60.8rem;
+  line-height: 77rem;
+  color: #000D0A;
+  width: 1000rem;
+  margin: 86.7rem 0 0rem 94.8rem;
+}
+
+.intro__form__label {
+  margin: 75.4rem 0 0 94.8rem;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 29.5rem;
+  line-height: 24rem;
+  letter-spacing: -0.005em;
+  color: #000D0A;
+  position: relative;
+}
+
+.intro__form__input {
+  width: 626.3rem;
+  height: 79.8rem;
+  margin: 46rem 0 0;
+  display: block;
+  border: 1rem solid #8C8C8C;
+  border-radius: 21rem;
+  background-color: #E6E6E6;
+
+  font-weight: 400;
+  font-size: 19.6rem;
+  line-height: 29rem;
+  letter-spacing: 0.04em;
+  padding: 0 0 0 32rem;
+}
+.intro__form__input::placeholder {
+  color: #8C8C8C;
+}
+.intro__form__textarea {
+  width: 960rem;
+  height: 353rem;
+  padding: 41.5rem 0 0 32.8rem;
+  font-family: 'KDT';
+}
+.intro__form__btn {
+  width: 600rem;
+  height: 115.8rem;
+  margin: 75.4rem 0 129.7rem 94.8rem;
+  background: #70B9EB;
+  border: 0.5rem solid #70B9EB;
+  border-radius: 22rem;
+
+  font-family: 'KDT';
+  font-weight: 600;
+  font-size: 29.5rem;
+  line-height: 24rem;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+}
+.intro__form__btn:hover { 
+  cursor: pointer;
+}
+.intro__subtitle {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 88.5rem;
+  line-height: 105.7rem;
+  color: #E7E7E7;
+  margin: 286.5rem 0 0rem 95rem;
+}
+.intro__text {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 43.7rem;
+  line-height: 79rem;
+  color: #E7E7E7;
+  margin: 173rem 0 0rem 95rem;
+}
+.intro__caption {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 26.8rem;
+  line-height: 32rem;
+  margin: 0 auto 0;
+  color: #00FFC2;
+}
+.intro__caption_top {
+  transform: translateY(190rem)
+}
+.intro__caption_bottom {
+  transform: translateY(-235rem)
+}
+.intro__scheme {
+  width: 1243rem;
+  height: 884rem;
+  margin: 97.8rem auto 144.6rem;
+}

@@ -1,0 +1,27 @@
+.contacts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.contacts__container {
+  width: 1243rem;
+  margin: 221.7rem auto 508rem;
+}
+
+.contacts__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88.5rem;
+  line-height: 105rem;
+  color: #171717;
+  width: 1050rem;
+  margin: 0 0 0 32rem;
+}
+.contacts__title_link {
+  color: #00DDA8;
+  margin: 0;
+  text-decoration: underline;
+}
