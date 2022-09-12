@@ -23,7 +23,7 @@ html, body {
 }
 @media screen and (max-width: 768px) {
   html, body {
-    /* font-size: 0.1302vw; */
+    font-size: 0.067vw;
     /* font-size: 20px; */
   }
 }

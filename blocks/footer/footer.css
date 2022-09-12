@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: center;
   background-color: #fff;
 }
 
@@ -48,8 +48,25 @@
 
 
 @media screen and (max-width: 768px) {
-  .footer {
-
+  .footer__container {
+    width: 1420rem;
+    margin: 0 50rem 290rem;
+    flex-direction: column;
+  }
+  .footer__logo {
+    font-size: 60rem;
+    margin: 0 0 50rem 30rem;
+  }
+  .footer__text {
+    margin: 0 0 0 30rem;
+    font-size: 40rem;
+    line-height: 200%;
+  }
+  .footer__menu {
+    margin: 60rem 0 0;
+  }
+  .footer__item {
+    margin: 0 58rem 0 0;
   }
 
 }

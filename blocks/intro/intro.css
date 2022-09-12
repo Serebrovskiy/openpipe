@@ -28,12 +28,21 @@
 
 .intro__form {
   width: 1407rem;
-  min-height: 185.5rem;
+  height: 315rem;
   display: flex;
   flex-direction: column;
   margin: 170rem auto 0;
   background: #E6E6E6;
   border-radius: 26.8rem;
+  overflow: hidden;
+  transition: 0.5s linear;
+}
+
+.intro__form__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 86.7rem 145.3rem 0rem 94.8rem;
 }
 
 .intro__form__subtitle {
@@ -43,7 +52,36 @@
   line-height: 77rem;
   color: #000D0A;
   width: 1000rem;
-  margin: 86.7rem 0 0rem 94.8rem;
+  margin: 0 0 0rem 0;
+}
+
+.intro__form__icon-rocket {
+  width: 80.7rem;
+  height: 28.6rem;
+  background-image: url('../../images/rocket.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  transform: translateY(-3rem);
+}
+.intro__form__btn-arrow {
+  width: 56.9rem;
+  height: 32.2rem;
+  background-image: url('../../images/arrow-down.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  transform: rotate(0deg);
+  transition: 0.5s linear;
+
+}
+.intro__form__btn-arrow:hover {
+  cursor: pointer;
+}
+.intro__form__btn-arrow-up {
+  transform: rotate(180deg);
 }
 
 .intro__form__label {
@@ -133,4 +171,21 @@
   width: 1243rem;
   height: 884rem;
   margin: 97.8rem auto 144.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    margin: 0 0 0 30rem;
+  }
+  .intro__subtitle {
+    margin: 286.5rem 0 0rem 30rem;
+  }
+  .intro__text {
+    margin: 173rem 0 0rem 30rem;
+    font-size: 61.7rem;
+    line-height: 180%;
+  }
+  .intro__scheme {
+    margin: 97.8rem auto 300rem;
+  }
 }

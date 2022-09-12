@@ -17,7 +17,7 @@
 .header__logo {
   margin: 0;
   font-family: 'Rubik';
-  font-weight: 800;
+  font-weight: 700;
   font-size: 49.2rem;
   line-height: 58rem;
   text-transform: uppercase;
@@ -36,20 +36,20 @@
   background-repeat: no-repeat;
   background-color: transparent;
 }
+.header__btn-mobile-menu:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
-  .header {
-
+  .header__container {
+    width: 1340rem;
   }
   .header__logo {
-    width: 101.2rem;
-    height: 137.1rem;
-    margin: 68.2rem 24.8rem 0 42.6rem;
+    font-size: 60rem;
   }
   .header__btn-mobile-menu {
+    width: 80rem;
+    height: 57.5rem;
+  }
 
-  }
-  .header__btn-mobile-menu:hover {
-    cursor: pointer;
-  }
 }

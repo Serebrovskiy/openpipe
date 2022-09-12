@@ -26,7 +26,7 @@
 }
 
 .contacts__list {
-  margin: 120rem 0 508rem;
+  margin: 120rem 0 0rem;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -58,4 +58,32 @@
   line-height: 38rem;
   color: #FEFEFE;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__container {
+    width: 1407rem;
+    margin: 221.7rem auto 400rem;
+  }
+  .contacts__title {
+    width: 900rem;
+  }
+  .contacts__list {
+    margin: 200rem 0 0 32rem;
+  }
+  .contacts__item {
+    width: 900rem;
+    height: 200rem;
+    margin: 0px 46rem 100rem 0;
+    border-radius: 50rem;
+  }
+  .contacts__item__icon {
+    width: 100rem;
+    height: 80rem;
+    margin: 0rem 0 0 75rem;
+  }
+  .contacts__item__text {
+    margin: 0rem 0 0 40rem;
+    font-size: 50rem;
+  }
 }
